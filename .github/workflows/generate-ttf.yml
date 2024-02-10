@@ -16,8 +16,10 @@ jobs:
   build:
     strategy:
       matrix:
-        weight: [0, 100, 300, 400, 500, 700, 900]
-        strict: ["strict", "nostrict"]
+        #weight: [0, 100, 300, 400, 500, 700, 900]
+        weight: [0]
+        #strict: ["strict", "nostrict"]
+        strict: ["nostrict"]
 
     runs-on: ubuntu-latest
 
