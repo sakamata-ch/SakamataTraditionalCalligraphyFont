@@ -71,13 +71,13 @@ jobs:
           name: sakamata-jtc-font
           path: fonts
 
-      - name: Pre Release
-        uses: softprops/action-gh-release@v1
-        if: ${{ github.ref == 'refs/heads/master' }}
-        with:
-          prerelease: true
-          tag_name: v${{ env.DTIME }}
-          body_path: gen-release-message/message.md
-          files: |
-            fonts/*.ttf
-            fonts/*.sources.tsv
+      #- name: Pre Release
+      #  uses: softprops/action-gh-release@v1
+      #  if: ${{ github.ref == 'refs/heads/master' }}
+      #  with:
+      #    prerelease: true
+      #    tag_name: v${{ env.DTIME }}
+      #    body_path: gen-release-message/message.md
+      #    files: |
+      #      fonts/*.ttf
+      #      fonts/*.sources.tsv
