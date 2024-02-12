@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build
-        uses: mkaraki/Png2Font/builder-ghaction@7cfdef916f5f168e1b9986779405275f5713e6c4
+        uses: mkaraki/Png2Font/builder-ghaction@b5777cc1432e1e02a6e57c02d500bdde73c45306
         with:
           filename-prefix: sakamata-jtc-font
           fontname: Sakamata Japanese Traditional Calligraphy Font
